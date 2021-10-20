@@ -1,9 +1,16 @@
 #pragma once
 /**
-* Interface of command line parser
-* Code is included into class CommandLine
-*/
-
+ * @brief Interface of command line parser
+ * I do not like expose private members into interfaz 
+ * so, "the real code is in CommandLine class
+ * 
+ * # Process
+ * 
+ * 1. Instanciate **CmdLine** with options and flags
+ * 2. Parse the command line. When errors or help and exception will be thrown
+ * 3. Query and use options and flags
+ * 
+ */
 
 #include <vector>
 #include <string>

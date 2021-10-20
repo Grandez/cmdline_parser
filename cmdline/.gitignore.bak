@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# temp files
+*.bak
+
+# Directories
+x64/**
